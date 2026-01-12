@@ -5,12 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project 01</title>
         <!-- Shift + alt + mũi tên lên, xuống để copy  -->
+
+        <!-- Reset css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
+
+        <!-- Font -->
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Main css -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
     <body>
-        <main style="height: 10000px">
+        <main>
             <!-- Header -->
             <header class="header">
                 <div class="content">
@@ -341,7 +353,7 @@
                                 src="./assets/img/stat-img.jpg"
                                 alt="You’ve found a neighborhood you love."
                             />
-
+                            <!-- Stats trend -->
                             <div class="stats-trend">
                                 <div class="row">
                                     <strong class="value">40,000+</strong>
@@ -452,11 +464,9 @@
                                     </div>
 
                                     <div class="avatar-group">
-                                        <img
-                                            src="./assets/img/avatar-8.jpg"
-                                            alt=""
-                                            class="avatar"
-                                        />
+                                        <div class="avatar avatar-box">
+                                            <span>Tq</span>
+                                        </div>
                                         <img
                                             src="./assets/img/avatar-7.jpg"
                                             alt=""
@@ -475,9 +485,6 @@
                                             alt=""
                                             class="avatar"
                                         />
-                                        <div class="avatar avatar-box">
-                                            <span>Tq</span>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -494,18 +501,151 @@
                                 respondents said finding the right neighborhood
                             </p>
                         </div>
+                    </div>
 
-                        <div class="">
-                            <div class="row">
-                                <div class="info">
-                                    <h2 class="title"></h2>
-                                    <p class="desc"></p>
-                                </div>
-                            </div>
+                    <div class="row row-qty">
+                        <div class="qty-item">
+                            <strong class="qty-title">2,500</strong>
+                            <p class="qty-desc">Homes For Sale</p>
+                        </div>
+                        <div class="qty-item">
+                            <strong class="qty-title">5,000+</strong>
+                            <p class="qty-desc">Homes Recently Sold</p>
+                        </div>
+                        <div class="qty-item">
+                            <strong class="qty-title">170+</strong>
+                            <p class="qty-desc">Price Reduced</p>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Subscription -->
+            <div class="subscription">
+                <div class="content">
+                    <div class="body">
+                        <div class="info">
+                            <h2 class="title line-clamp">
+                                Subscribe to our Newsletter!
+                            </h2>
+                            <p class="desc line-clamp">
+                                Subscribe to our newsletter and stay updated.
+                            </p>
+                            <a href="#!" class="btn">Subscribe</a>
+                        </div>
+                        <img
+                            src="./assets/img/newletter.svg"
+                            alt="Subscribe to our Newsletter!"
+                            class="image"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="content">
+                    <div class="row row-top">
+                        <!-- column 1 -->
+                        <div class="column">
+                            <h3 class="title">Product</h3>
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#!" class="link">Listing</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!" class="link">Property</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!" class="link">Agents</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!" class="link">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- column 2 -->
+                        <div class="column">
+                            <h3 class="title">Resources</h3>
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#!" class="link">Our Homes</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!" class="link">Member Stories</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!" class="link">Video</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!" class="link">Free trial</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- column 3 -->
+                        <div class="column">
+                            <h3 class="title">Company</h3>
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#!" class="link">Patnerships</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!" class="link">Terms of use</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!" class="link">Privacy</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#!" class="link">Sitemap</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- column 4 -->
+                        <div class="column">
+                            <h3 class="title">Get in touch</h3>
+                            <p class="desc">
+                                You’ll find your next home, in any style you
+                                prefer.
+                            </p>
+
+                            <div class="social">
+                                <a href="#!" class="social-link">
+                                    <img
+                                        src="./assets/img/facebook.svg"
+                                        alt="Facebook"
+                                    />
+                                </a>
+                                <a href="#!" class="social-link">
+                                    <img
+                                        src="./assets/img/twitter.svg"
+                                        alt="Twitter"
+                                    />
+                                </a>
+                                <a href="#!" class="social-link">
+                                    <img
+                                        src="./assets/img/linkedin.svg"
+                                        alt="Linkedin"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-bottom">
+                        <img
+                            src="./assets/img/Logo.svg"
+                            alt="Besnik."
+                            class="logo"
+                        />
+                        <p class="copyright">
+                            Copyright 2020.com, All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </footer>
         </main>
     </body>
 </html>
